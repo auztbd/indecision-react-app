@@ -25,7 +25,7 @@ export default class IndecisionApp extends React.Component {
     };
     handleAddOption = (option) => {
         if (!option) {
-            return "Come on, don't give me an empty thought!";
+            return "Come on, don't give me blanks!";
         } else if (this.state.options.indexOf(option) > -1) {
             return "This option already exists";
         }
