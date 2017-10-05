@@ -11,5 +11,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log('Epress server is up on port ' + PORT);
+    console.log('Express server is up on port ' + port);
 });
